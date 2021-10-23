@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.267);
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100000;
+}
+.sticky{
+    background-color: black;
+}
+.logo{
+    width: 60%;
+    float: left;
+    margin-top: 0px;
+}
+.logo_section{
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+    
+}
+.logo_section span{
+    color: violet;
+}
+.menu{
+    width: 40%;
+    float: left;
+    margin-left: -200px;
+}
+.menu ul{}
+
+.menu ul li{
+    float: left;
+    margin-left: 35px;
+    margin-top: 0px;
+}
+.menu ul li a{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.banner{
+    height: 93vh;
+    width: 100%;
+    background-image: url(image/tamplate1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner_part{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(89, 98, 0, 0.575);
+}
+.banner h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    color: tomato;
+}
+.banner p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+    line-height: 40px;
+}
+
+.banner .btn1{
+    margin-left: 800px;
+}
+
+.btn{
+    background-color: tomato;
+    color: white;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(136, 63, 51);
+    color: rgb(199, 199, 199);
+    transition: 0.5s;
+}
+
+/* ////////////// About Start //////////////////// */
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/tamplate2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.about_section{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(99, 141, 0, 0.527);
+}
+.about_part{
+    height: 700px;
+    width: 400px;
+    background-color: white;
+    margin-top: 70px;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+    transition: 0.5s;
+    float: left;
+    margin-left: 150px;
+    position: relative;
+    transform:skewY(5deg);
+}
+
+.about h1{
+    text-align:center;
+    font-size: 60px;
+}
+.about h1 span{
+    color: rgb(255, 255, 255);
+}
+.about_part:hover{
+    background-color: rgba(255, 0, 0, 0);
+    transition: 0.5s;
+    color: snow;
+}
+.about_part img{
+    height: 200px;
+    border: 2px dotted red;
+    border-radius: 50%;
+    margin-left: 77px;
+}
+.about_part h3{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.about_part p{
+    text-align: center;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+.about_part h6{
+    color:sienna;
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+.about_part button{
+    margin-left: 100px;
+}
+
+
+/* ////////////// About End //////////////////// */
+
+
+/* ////////////// Blog Start //////////////////// */
+
+.blog{
+    height: 2200px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+}
+.blog_part{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+.blog_part h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+.blog_part h1 span{
+    color: crimson;
+}
+.blog_1{
+
+}
+.blog_1 h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+    
+}
+.blog_1 p{
+    text-align: center;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+
+.blog_2{
+    height: auto;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+    float: left;
+    margin-left: 35px;
+    box-shadow: 0px 20px red inset ,0px 20px red ;
+    margin-bottom: 40px;
+    transition: 0.5s;
+
+}
+.blog_2:hover{
+    background-color: rgb(255, 255, 141);
+    transition: 0.5s;
+}
+.blog_2 img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blog_2 p{
+    padding-bottom: 20px;
+}
+
+/* ////////////// Blog End //////////////////// */
+
+/* ////////////// Service Start //////////////////// */
+
+.services{
+    height: 2000px;
+    width: 100%;
+    background:radial-gradient(red,yellow,red);
+}
+.services_part{
+    height: 100%;
+    width: 100%;
+}
+.services h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+.services h1 span{
+    color: crimson;
+}
+.services p{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    
+    padding-bottom: 30px;
+}
+
+.service_post{
+    height: 530px;
+    width: 350px;
+    background-color: honeydew;
+    padding: 15px;
+    float: left;
+    margin-left: 24px;
+    margin-top: 24px;
+    transition: 0.5s;
+}
+.service_post:hover{
+    background-color: rgba(255, 0, 0, 0.116);
+    color: ivory;
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.service_post img{
+    height: 250px;
+    
+    padding: 0;
+    margin-left: 20px;
+}
+
+.service_post h5{
+    font-size: 25px;
+}
+
+.service_post p{
+    color: indigo;
+    text-align: left;
+    margin: 0;
+}
+.service_post button{}
+/* ////////////// Service End //////////////////// */
+
+
+/* ////////////// portfolio Start //////////////////// */
+
+.portfolio{
+    height: 1600px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.portfolio h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+.portfolio h1 span{
+    color: crimson;
+}
+.portfolio_part{
+    background-image: url(image/main1.jpg);
+    height: 650px;
+    width: 45%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 30px;
+    padding: 20px;
+    border: 2px dotted white;
+    
+}
+.pp{
+    position: relative;
+}
+.port_img{
+    height: 650px;
+    width: 45%;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: tomato;
+    font-weight: bold;
+    transition: 1s;
+}
+.port_img:hover{
+    background-color: rgba(255, 255, 255, 0);
+    transition: 1s;
+}
+.portfolio_bg{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(rgba(255, 0, 0, 0.664),yellow);
+    padding: 20px;
+    border: 2px dotted white;
+    border-radius: 30px;
+}
+.portfolio_bg img{
+    height: 200px;
+    margin-left: 300px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px;
+}
+.portfolio_bg h1{
+    font-size: 40px;
+    margin-top: -50px;
+}
+.portfolio_bg p{
+    color: rgb(92, 255, 114);
+    line-height: 30px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+
+/* ////////////// portfolio End //////////////////// */
+
+
+/* ////////////// Cobtact Start //////////////////// */
+
+.contact{
+    height: 800px;
+    width: 100%;
+
+}
+.contact h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 60px;
+}
+.contact h1 span{
+    color: crimson;
+}
+.form{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: ;
+    padding: 30px;
+}
+.form_left{
+    width: 50%;
+    float: left;
+}
+.form_right{
+    width: 50%;
+    float: left;
+}
+label{
+    color: darkblue;
+    font-size: 20px;;
+}
+input , textarea{
+    width: 70%;
+    height: 40px;
+    margin-top: 7PX;
+    margin-bottom: 20PX;
+    font-size: 19px;
+}
+form button{
+    margin-left: -100px;
+}
+
+/* ////////////// Cobtact End //////////////////// */
+
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+}
+footer h5{
+    text-align: center;
+    font-size: 17px;
+    padding-top: 20px;
+    color: rgb(112, 73, 0);
+}
+footer h5 span{
+    color: red;
+}
